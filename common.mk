@@ -401,5 +401,8 @@ include hardware/google/pixel/mm/device_gki.mk
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Google Camera
+$(call inherit-product-if-exists, vendor/google/camera/config.mk)
+
 # UDFPS
 TARGET_HAS_UDFPS := true
