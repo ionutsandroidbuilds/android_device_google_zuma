@@ -433,5 +433,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 # Google Camera
 $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 
+# Google Face Unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+
 # UDFPS
 TARGET_HAS_UDFPS := true
