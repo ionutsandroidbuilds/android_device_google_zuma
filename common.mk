@@ -425,3 +425,7 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 
 # ZRAM writeback
 include hardware/google/pixel/mm/device_gki.mk
+
+## crDroid and device extra features
+# UDFPS
+TARGET_HAS_UDFPS := true
