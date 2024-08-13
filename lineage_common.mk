@@ -26,6 +26,9 @@ include device/google/gs-common/performance/experiments/experiments.mk
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
+# Google Face Unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 
