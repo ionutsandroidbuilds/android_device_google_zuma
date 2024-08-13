@@ -427,5 +427,8 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 include hardware/google/pixel/mm/device_gki.mk
 
 ## crDroid and device extra features
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # UDFPS
 TARGET_HAS_UDFPS := true
