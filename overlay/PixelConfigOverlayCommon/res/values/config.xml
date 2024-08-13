@@ -67,4 +67,7 @@
     <!-- The maximum number of call log entries for each sim card that can be stored in the call log
          provider on the device. -->
     <integer name="config_maximumCallLogEntriesPerSim">1000</integer>
+
+     <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
