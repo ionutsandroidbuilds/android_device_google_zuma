@@ -44,6 +44,7 @@ ro.build.device_family=HK3SB3AK3
 # Display
 debug.hwc.winupdate=1
 debug.slsi_platform=1
+persist.sys.sf.color_saturation=1.0
 ro.vendor.ddk.set.afbc=1
 vendor.display.lbe.supported=1
 vendor.hwc.dpp.downscale=4
