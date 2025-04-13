@@ -34,3 +34,8 @@ allow pixelstats_vendor sysfs_thermal:lnk_file r_file_perms;
 
 # Pca charge
 allow pixelstats_vendor sysfs_pca:file rw_file_perms;
+
+allow pixelstats_vendor block_device:dir search;
+allow pixelstats_vendor sysfs_dm:dir { read open getattr };
+allow pixelstats_vendor sysfs_dm:file { read open getattr };
+allow pixelstats_vendor dm_device:blk_file getattr;
