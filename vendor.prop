@@ -1,1 +1,4 @@
 ro.soc.model=Tensor G3
+
+# Camera
+persist.vendor.camera.privapp.list=com.google.android.GoogleCamera
