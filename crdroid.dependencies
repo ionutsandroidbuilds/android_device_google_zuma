@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_google_gs101",
+    "target_path": "device/google/gs101"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
+    "target_path": "vendor/google/faceunlock",
+    "remote": "crdroid-gitlab",
+    "branch": "15.0"
+  }
+]
