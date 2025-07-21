@@ -14,6 +14,9 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# BCR Call Recorder
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
