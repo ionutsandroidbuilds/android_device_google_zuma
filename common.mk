@@ -430,6 +430,9 @@ include hardware/google/pixel/mm/device_gki.mk
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# BCR Call Recording
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Google Camera
 $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 
