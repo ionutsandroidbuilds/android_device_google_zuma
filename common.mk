@@ -438,6 +438,9 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/priv-app/DeviceAsWebcam/DeviceAsWebcam.apk \
     system/priv-app/DeviceAsWebcam/lib/arm64/libjni_deviceAsWebcam.so
 
+# Extras for Pixels
+$(call inherit-product-if-exists, vendor/google/pixels_extras/pixels_extras.mk)
+
 # Google Camera
 $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 
