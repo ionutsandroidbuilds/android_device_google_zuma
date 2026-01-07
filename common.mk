@@ -433,6 +433,9 @@ TARGET_EXCLUDES_AUDIOFX := true
 # BCR Call Recording
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
+# Disable artifact path requirements
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Extras for Pixels
 $(call inherit-product-if-exists, vendor/google/pixels_extras/pixels_extras.mk)
 
