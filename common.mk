@@ -260,6 +260,8 @@ PRODUCT_PACKAGES += \
     libdownmixaidl \
     libhapticgeneratoraidl
 
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 # vndservicemanager and vndservice no longer included in API 30+, however needed by vendor code.
 # See b/148807371 for reference
 PRODUCT_PACKAGES += vndservicemanager
