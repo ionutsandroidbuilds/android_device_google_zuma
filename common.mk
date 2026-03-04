@@ -424,12 +424,12 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 # ZRAM writeback
 include hardware/google/pixel/mm/device_gki.mk
 
-## crDroid and device extra features
+## LunarisAOSP and device extra features
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
 # BCR Call Recording
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+WITH_BCR := true
 
 # Extras for Pixels
 $(call inherit-product-if-exists, vendor/google/pixels_extras/pixels_extras.mk)
@@ -447,8 +447,11 @@ $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 # Google Face Unlock
 $(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
 
+# Surface flinger boosting (Smoother scrolling, fewer frame drops but Keeps CPU slightly “awake”)
+SURFACE_FLINGER_BOOST := true
+
 # UDFPS
-TARGET_HAS_UDFPS := true
+TARGET_CUSTOM_UDFPS := true
 
 # ViperFX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)

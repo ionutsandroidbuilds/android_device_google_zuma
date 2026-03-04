@@ -59,6 +59,9 @@ ro.preventative_fsck=1
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# maintainer
+ro.lunaris.maintainer=Ionut
+
 # MTE
 persist.arm64.memtag.app.com.android.nfc=off
 persist.arm64.memtag.app.com.android.se=off
