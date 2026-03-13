@@ -348,7 +348,6 @@
 /vendor/bin/hw/android\.hardware\.edgetpu\.logging@service-edgetpu-logging u:object_r:edgetpu_logging_exec:s0
 /vendor/bin/hw/android\.hardware\.gatekeeper-service\.trusty u:object_r:hal_gatekeeper_default_exec:s0
 /vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.trusty u:object_r:hal_gatekeeper_default_exec:s0
-/vendor/bin/hw/android\.hardware\.gxp\.logging@service-gxp-logging u:object_r:gxp_logging_exec:s0
 /vendor/bin/hw/android\.hardware\.health-service\.zuma u:object_r:hal_health_default_exec:s0
 /vendor/bin/hw/android\.hardware\.identity@1\.0-service\.citadel u:object_r:hal_identity_citadel_exec:s0
 /vendor/bin/hw/android\.hardware\.memtrack-service\.pixel u:object_r:hal_memtrack_default_exec:s0
