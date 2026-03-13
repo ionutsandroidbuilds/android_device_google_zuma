@@ -449,3 +449,8 @@ $(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
 
 # UDFPS
 TARGET_HAS_UDFPS := true
+
+# ViperFX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+PRODUCT_COPY_FILES += \
+	device/google/zuma/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_config.xml
