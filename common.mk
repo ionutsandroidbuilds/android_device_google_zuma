@@ -359,10 +359,6 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay \
     FrameworkResOverlayProductZuma \
     FrameworkResOverlayVendorZuma \
-    GlanceableHubConfigOverlay \
-    GlanceableHubSettingsConfigOverlay \
-    GlanceableHubSettingsConfigOverlay2022 \
-    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerSafetyCenterOverlay \
     PixelConfigOverlay2019 \
