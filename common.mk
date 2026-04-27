@@ -444,5 +444,8 @@ $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 # Google Face Unlock
 $(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
 
+# JamesDSP
+$(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
+
 # UDFPS
 TARGET_HAS_UDFPS := true
