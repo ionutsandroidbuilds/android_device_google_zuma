@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "LineageOS/android_device_google_gs-common",
+    "target_path": "device/google/gs-common"
+    "branch": "lineage-23.2"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_bcr",
+    "target_path": "vendor/bcr",
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_JamesDSP",
+    "target_path": "vendor/JamesDSP",
+  }
+]
