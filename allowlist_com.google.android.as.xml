@@ -20,4 +20,12 @@
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
     <!-- AI services open-source network component can bind to AI Core. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
+
+     <!-- The Now Playing package can bind to the open-source PCS component. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.nowplaying" />
+    <allow-association target="com.google.android.apps.pixel.nowplaying" allowed="com.google.android.as.oss" />
+
+    <!-- The Now Playing package can bind to Android System Intelligence (Private Core Compute). -->
+    <allow-association target="com.google.android.as" allowed="com.google.android.apps.pixel.nowplaying" />
+    <allow-association target="com.google.android.apps.pixel.nowplaying" allowed="com.google.android.as" />
 </config>
