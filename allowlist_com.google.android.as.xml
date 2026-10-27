@@ -15,9 +15,4 @@
     <allow-association target="com.google.android.as" allowed="com.android.systemui" />
     <!-- AI services can bind to its open-source network component. -->
     <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />
-
-    <!-- AI services open-source network component can only bind back to the core package. -->
-    <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
-    <!-- AI services open-source network component can bind to AI Core. -->
-    <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
 </config>
